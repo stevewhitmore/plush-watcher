@@ -11,5 +11,6 @@ if [[ -n $scan_result ]]; then
         | mutt -s "Warriors Plush Scan" "$EMAIL"
 fi
 
+mkdir -p ../logs
 echo -e "Scan completed at $(date). \nResult: [$scan_result] \n" >> ../logs/scan_log.txt
 
