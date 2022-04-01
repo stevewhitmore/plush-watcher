@@ -40,4 +40,4 @@ gitlab_release:
     tag_name: $VERSION
     description: ./CHANGELOG.md
   only:
-    - master
+    - main
